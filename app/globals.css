@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+a:hover {
+  color: #ff6b6b !important;
+}
+
+.feature:hover,
+.productCard:hover {
+  transform: translateY(-5px);
+}
+
+.productButton:hover {
+  background-color: #764ba2;
+}
+
+.categoryButton:hover {
+  border-color: #764ba2;
+}
